@@ -272,7 +272,7 @@ class Ann(Monster):
 
     # picture from https://www.cs.cmu.edu/~112/staff.html
     def drawMonster(self,screen, x0, y0):
-        picture = pygame.image.load('aazhang.jpg').convert_alpha()
+        picture = pygame.image.load('photos/aazhang.jpg').convert_alpha()
         super().drawMonster(screen, x0, y0, picture)
 
 class Kosbie(Monster):
@@ -282,7 +282,7 @@ class Kosbie(Monster):
 
     # picture from http://www.kosbie.net/cmu/
     def drawMonster(self,screen, x0, y0):
-        picture = pygame.image.load('dkosbie.png').convert_alpha()
+        picture = pygame.image.load('photos/dkosbie.png').convert_alpha()
         super().drawMonster(screen, x0, y0, picture)
 
 class Phi(Monster):
@@ -292,7 +292,7 @@ class Phi(Monster):
 
     # picture from https://www.cs.cmu.edu/~112/staff.html
     def drawMonster(self,screen, x0, y0):
-        picture = pygame.image.load('hpnguyen.jpg').convert_alpha()
+        picture = pygame.image.load('photos/hpnguyen.jpg').convert_alpha()
         super().drawMonster(screen, x0, y0, picture)
 
 class Rahul(Monster):
@@ -302,7 +302,7 @@ class Rahul(Monster):
 
     # picture from https://www.cs.cmu.edu/~112/staff.html    
     def drawMonster(self,screen, x0, y0):
-        picture = pygame.image.load('raahuja.jpg').convert_alpha()
+        picture = pygame.image.load('photos/raahuja.jpg').convert_alpha()
         super().drawMonster(screen, x0, y0, picture)
 
 class Kian(Monster):
@@ -312,7 +312,7 @@ class Kian(Monster):
 
     # picture from https://www.cs.cmu.edu/~112/staff.html    
     def drawMonster(self,screen, x0, y0):
-        picture = pygame.image.load('knassre.jpg').convert_alpha()
+        picture = pygame.image.load('photos/knassre.jpg').convert_alpha()
         super().drawMonster(screen, x0, y0, picture)
 
 class Alan(Monster):
@@ -322,7 +322,7 @@ class Alan(Monster):
 
     # picture from https://www.cs.cmu.edu/~112/staff.html    
     def drawMonster(self,screen, x0, y0):
-        picture = pygame.image.load('alanhsu.jpg').convert_alpha()
+        picture = pygame.image.load('photos/alanhsu.jpg').convert_alpha()
         super().drawMonster(screen, x0, y0, picture)
 
 class Udit(Monster):
@@ -332,7 +332,7 @@ class Udit(Monster):
 
     # picture from https://www.cs.cmu.edu/~112/staff.html
     def drawMonster(self,screen, x0, y0):
-        picture = pygame.image.load('uar.jpg').convert_alpha()
+        picture = pygame.image.load('photos/uar.jpg').convert_alpha()
         super().drawMonster(screen, x0, y0, picture)
 
 class Asad(Monster):
@@ -342,7 +342,7 @@ class Asad(Monster):
 
     # picture from https://www.cs.cmu.edu/~112/staff.html    
     def drawMonster(self,screen, x0, y0):
-        picture = pygame.image.load('asadalis.jpg').convert_alpha()
+        picture = pygame.image.load('photos/asadalis.jpg').convert_alpha()
         super().drawMonster(screen, x0, y0, picture)
 
 class Taylor(Monster):
@@ -352,7 +352,7 @@ class Taylor(Monster):
 
     # picture from https://www.cmu.edu/news/stories/archives/2017/july/idea-for-good.html
     def drawMonster(self,screen, x0, y0):
-        picture = pygame.image.load('mtaylor.png').convert_alpha()
+        picture = pygame.image.load('photos/mtaylor.png').convert_alpha()
         super().drawMonster(screen, x0, y0, picture)
 
     def __repr__(self):
@@ -365,7 +365,7 @@ class Dina(Monster):
 
     # picture from https://www.cs.cmu.edu/~112/staff.html    
     def drawMonster(self,screen, x0, y0):
-        picture = pygame.image.load('drazek.jpg').convert_alpha()
+        picture = pygame.image.load('photos/drazek.jpg').convert_alpha()
         super().drawMonster(screen, x0, y0, picture)
 
 class Emily(Monster):
@@ -375,7 +375,7 @@ class Emily(Monster):
 
     # picture from https://www.cs.cmu.edu/~112/staff.html    
     def drawMonster(self,screen, x0, y0):
-        picture = pygame.image.load('ejzhang.jpg').convert_alpha()
+        picture = pygame.image.load('photos/ejzhang.jpg').convert_alpha()
         super().drawMonster(screen, x0, y0, picture)
 
 class Prithvi(Monster):
@@ -385,7 +385,7 @@ class Prithvi(Monster):
 
     # picture from https://www.cs.cmu.edu/~112/staff.html    
     def drawMonster(self,screen, x0, y0):
-        picture = pygame.image.load('pokade.jpg').convert_alpha()
+        picture = pygame.image.load('photos/pokade.jpg').convert_alpha()
         super().drawMonster(screen, x0, y0, picture)
     
 class Austin(Monster):
@@ -395,7 +395,7 @@ class Austin(Monster):
 
     # picture from https://www.cs.cmu.edu/~112/staff.html    
     def drawMonster(self,screen, x0, y0):
-        picture = pygame.image.load('aschick.jpg').convert_alpha()
+        picture = pygame.image.load('photos/aschick.jpg').convert_alpha()
         super().drawMonster(screen, x0, y0, picture)
 
 monsterList = [Ann(), Phi(), Kosbie(), Rahul(), Kian(), Alan(), Udit(), Asad(),
@@ -438,7 +438,7 @@ class Midterm(Curse):
 
     # picture from https://www.cs.cmu.edu/~112/schedule.html
     def drawCurse(self, screen, x0, y0):
-        picture = pygame.image.load('midterm.png').convert_alpha()
+        picture = pygame.image.load('photos/midterm.png').convert_alpha()
         super().drawCurse(screen, x0, y0, picture)
 
 class Final(Curse):
@@ -448,7 +448,7 @@ class Final(Curse):
 
     # picture from https://www.cs.cmu.edu/~112/schedule.html
     def drawCurse(self, screen, x0, y0):
-        picture = pygame.image.load('final.png').convert_alpha()
+        picture = pygame.image.load('photos/final.png').convert_alpha()
         super().drawCurse(screen, x0, y0, picture)
 
 curseList = [Midterm(), Midterm(), Final(), Final()]
@@ -490,7 +490,7 @@ class SmallGroupSessions(Consumable):
 
     # picture from https://doodle.com/poll/cfgayc4at2epusau
     def drawConsumable(self, screen, x0, y0):
-        picture = pygame.image.load('smallgroup.png').convert_alpha()
+        picture = pygame.image.load('photos/smallgroup.png').convert_alpha()
         super().drawConsumable(screen, x0, y0, picture)
 
     def __repr__(self):
@@ -503,7 +503,7 @@ class OfficeHours(Consumable):
 
     # picture from https://cmu.ohqueue.com/#/courses
     def drawConsumable(self, screen, x0, y0):
-        picture = pygame.image.load('officehours.png').convert_alpha()
+        picture = pygame.image.load('photos/officehours.png').convert_alpha()
         super().drawConsumable(screen, x0, y0, picture)
     
     def __repr__(self):
@@ -516,7 +516,7 @@ class Autolab(Consumable):
 
     # picture from https://autolab.andrew.cmu.edu/
     def drawConsumable(self, screen, x0, y0):
-        picture = pygame.image.load('autolab.png').convert_alpha()
+        picture = pygame.image.load('photos/autolab.png').convert_alpha()
         super().drawConsumable(screen, x0, y0, picture)
 
 class Piazza(Consumable):
@@ -526,7 +526,7 @@ class Piazza(Consumable):
 
     # picture from https://piazza.com/class/k4cogezbi4h3jk
     def drawConsumable(self, screen, x0, y0):
-        picture = pygame.image.load('piazza.png').convert_alpha()
+        picture = pygame.image.load('photos/piazza.png').convert_alpha()
         super().drawConsumable(screen, x0, y0, picture)
 
 class Gallery(Consumable):
@@ -536,7 +536,7 @@ class Gallery(Consumable):
 
     # picture from https://www.cs.cmu.edu/~112/gallery.html
     def drawConsumable(self, screen, x0, y0):
-        picture = pygame.image.load('tpgallery.png').convert_alpha()
+        picture = pygame.image.load('photos/tpgallery.png').convert_alpha()
         super().drawConsumable(screen, x0, y0, picture)
 
     def __repr__(self):
@@ -549,7 +549,7 @@ class PassFail(Consumable):
 
     # picture from https://www.cmu.edu/alert/coronavirus/communications/mar-16b-2020.html
     def drawConsumable(self, screen, x0, y0):
-        picture = pygame.image.load('passfail.png').convert_alpha()
+        picture = pygame.image.load('photos/passfail.png').convert_alpha()
         super().drawConsumable(screen, x0, y0, picture)
 
 class Schedule(Consumable):
@@ -559,7 +559,7 @@ class Schedule(Consumable):
 
     # picture from https://www.cs.cmu.edu/~112/schedule.html
     def drawConsumable(self, screen, x0, y0):
-        picture = pygame.image.load('schedule.png').convert_alpha()
+        picture = pygame.image.load('photos/schedule.png').convert_alpha()
         super().drawConsumable(screen, x0, y0, picture)
 
 class HomeScreen(Consumable):
@@ -569,7 +569,7 @@ class HomeScreen(Consumable):
 
     # picture from https://www.cs.cmu.edu/~112/index.html
     def drawConsumable(self, screen, x0, y0):
-        picture = pygame.image.load('homescreen.png').convert_alpha()
+        picture = pygame.image.load('photos/homescreen.png').convert_alpha()
         super().drawConsumable(screen, x0, y0, picture)
 
     def __repr__(self):
@@ -582,7 +582,7 @@ class Syllabus(Consumable):
 
     # picture from https://www.cs.cmu.edu/~112/syllabus.html
     def drawConsumable(self, screen, x0, y0):
-        picture = pygame.image.load('homescreen.png').convert_alpha()
+        picture = pygame.image.load('photos/homescreen.png').convert_alpha()
         super().drawConsumable(screen, x0, y0, picture)
 
 consumableList = [SmallGroupSessions(), OfficeHours(), Autolab(), 
@@ -629,7 +629,7 @@ class ADictionary(Armour):
 
     # picture from https://www.collinsdictionary.com/us/dictionary/english/dictionary
     def drawArmour(self, screen, x0, y0):
-        picture = pygame.image.load('dictionary.jpg').convert_alpha()
+        picture = pygame.image.load('photos/dictionary.jpg').convert_alpha()
         super().drawArmour(screen, x0, y0, picture)    
 
 class AList(Armour):
@@ -639,7 +639,7 @@ class AList(Armour):
 
     # picture from https://www.computerhope.com/jargon/l/list.htm
     def drawArmour(self, screen, x0, y0):
-        picture = pygame.image.load('list.jpg').convert_alpha()
+        picture = pygame.image.load('photos/list.jpg').convert_alpha()
         super().drawArmour(screen, x0, y0, picture)   
 
 class AInt(Armour):
@@ -649,7 +649,7 @@ class AInt(Armour):
 
     # picture from https://www.cnn.com/2019/10/17/world/record-breaking-ants-scli-intl-scn/index.html    
     def drawArmour(self, screen, x0, y0):
-        picture = pygame.image.load('ant.jpg').convert_alpha()
+        picture = pygame.image.load('photos/ant.jpg').convert_alpha()
         super().drawArmour(screen, x0, y0, picture)   
 
 class AFloat(Armour):
@@ -659,7 +659,7 @@ class AFloat(Armour):
 
     # picture from https://bokunoheroacademia.fandom.com/wiki/Nana_Shimura 
     def drawArmour(self, screen, x0, y0):
-        picture = pygame.image.load('float.png').convert_alpha()
+        picture = pygame.image.load('photos/float.png').convert_alpha()
         super().drawArmour(screen, x0, y0, picture)   
 
 class ASet(Armour):
@@ -669,7 +669,7 @@ class ASet(Armour):
 
     # picture from https://www.darkknightarmoury.com/product/edward-steel-armour-set/ 
     def drawArmour(self, screen, x0, y0):
-        picture = pygame.image.load('set.jpg').convert_alpha()
+        picture = pygame.image.load('photos/set.jpg').convert_alpha()
         super().drawArmour(screen, x0, y0, picture)   
 
 class ATuple(Armour):
@@ -679,7 +679,7 @@ class ATuple(Armour):
 
     # picture from https://www.britannica.com/science/twin0    
     def drawArmour(self, screen, x0, y0):
-        picture = pygame.image.load('tuple.jpg').convert_alpha()
+        picture = pygame.image.load('photos/tuple.jpg').convert_alpha()
         super().drawArmour(screen, x0, y0, picture)   
 
 class ABoolean(Armour):
@@ -689,7 +689,7 @@ class ABoolean(Armour):
 
     # picture from https://en.wikipedia.org/wiki/Love_of_God_in_Christianity   
     def drawArmour(self, screen, x0, y0):
-        picture = pygame.image.load('boolean.jpg').convert_alpha()
+        picture = pygame.image.load('photos/boolean.jpg').convert_alpha()
         super().drawArmour(screen, x0, y0, picture)   
 
 class AFunction(Armour):
@@ -699,7 +699,7 @@ class AFunction(Armour):
 
     # picture from https://www.history.com/topics/folklore/history-of-the-devil 
     def drawArmour(self, screen, x0, y0):
-        picture = pygame.image.load('function.jpg').convert_alpha()
+        picture = pygame.image.load('photos/function.jpg').convert_alpha()
         super().drawArmour(screen, x0, y0, picture)   
 
 class AMap(Armour):
@@ -709,7 +709,7 @@ class AMap(Armour):
 
     # picture from https://www.mapsofworld.com/world-map-image.html  
     def drawArmour(self, screen, x0, y0):
-        picture = pygame.image.load('map.jpg').convert_alpha()
+        picture = pygame.image.load('photos/map.jpg').convert_alpha()
         super().drawArmour(screen, x0, y0, picture)   
 
 class ALoop(Armour):
@@ -719,7 +719,7 @@ class ALoop(Armour):
 
     # picture from https://blog.hubspot.com/blog/tabid/6307/bid/32019/why-every-marketer-needs-closed-loop-reporting.aspx  
     def drawArmour(self, screen, x0, y0):
-        picture = pygame.image.load('loop.png').convert_alpha()
+        picture = pygame.image.load('photos/loop.png').convert_alpha()
         super().drawArmour(screen, x0, y0, picture)   
 
 class AException(Armour):
@@ -729,7 +729,7 @@ class AException(Armour):
 
     # picture from https://commons.wikimedia.org/wiki/File:NYCS-bull-trans-2.svg   
     def drawArmour(self, screen, x0, y0):
-        picture = pygame.image.load('exception.png').convert_alpha()
+        picture = pygame.image.load('photos/exception.png').convert_alpha()
         super().drawArmour(screen, x0, y0, picture)   
 
 class AError(Armour):
@@ -739,7 +739,7 @@ class AError(Armour):
 
     # picture from https://www.amazon.com/Its-My-Life-Dav1d/dp/B07GZCWHSH  
     def drawArmour(self, screen, x0, y0):
-        picture = pygame.image.load('error.jpg').convert_alpha()
+        picture = pygame.image.load('photos/error.jpg').convert_alpha()
         super().drawArmour(screen, x0, y0, picture)   
 
 class AString(Armour):
@@ -749,7 +749,7 @@ class AString(Armour):
 
     # picture from https://en.wikipedia.org/wiki/File:Spool_of_string.jpg   
     def drawArmour(self, screen, x0, y0):
-        picture = pygame.image.load('string.jpg').convert_alpha()
+        picture = pygame.image.load('photos/string.jpg').convert_alpha()
         super().drawArmour(screen, x0, y0, picture)   
 
 armourList = [AMap(), ALoop(), AFunction(), ASet(), ATuple(),
@@ -793,7 +793,7 @@ class Professor(PlayerClass):
 
     # picture from https://en.wikipedia.org/wiki/Randy_Pausch#/media/File:RandyPausch_Wiki_2.jpg    
     def drawClass(self, screen, x0, y0):
-        picture = pygame.image.load('randypausch.jpg').convert_alpha()
+        picture = pygame.image.load('photos/randypausch.jpg').convert_alpha()
         super().drawClass(screen, x0, y0, picture)
 
 class Student(PlayerClass):
@@ -803,7 +803,7 @@ class Student(PlayerClass):
 
     # picture from https://www.cmu.edu/student-experience/
     def drawClass(self, screen, x0, y0):
-        picture = pygame.image.load('undergrad.jpg').convert_alpha()
+        picture = pygame.image.load('photos/undergrad.jpg').convert_alpha()
         super().drawClass(screen, x0, y0, picture)
 
 class TA(PlayerClass):
@@ -813,7 +813,7 @@ class TA(PlayerClass):
 
     # picture from http://math.cmu.edu/~aremondt/
     def drawClass(self, screen, x0, y0):
-        picture = pygame.image.load('TA.jpg').convert_alpha()
+        picture = pygame.image.load('photos/TA.jpg').convert_alpha()
         super().drawClass(screen, x0, y0, picture)
 
 class Dean(PlayerClass):
@@ -823,7 +823,7 @@ class Dean(PlayerClass):
 
     # picture mode https://www.cmu.edu/dietrich/philosophy/people/faculty/scheines.html
     def drawClass(self, screen, x0, y0):
-        picture = pygame.image.load('Dean.jpg').convert_alpha()
+        picture = pygame.image.load('photos/Dean.jpg').convert_alpha()
         super().drawClass(screen, x0, y0, picture)
     
 class President(PlayerClass):
@@ -833,7 +833,7 @@ class President(PlayerClass):
 
     # picture from https://www.cs.cmu.edu/~farnam/
     def drawClass(self, screen, x0, y0):
-        picture = pygame.image.load('president.jpg').convert_alpha()
+        picture = pygame.image.load('photos/president.jpg').convert_alpha()
         super().drawClass(screen, x0, y0, picture)
 
 playerClassList = [Professor(), Professor(), Dean(), Dean(), Student(),
@@ -875,7 +875,7 @@ class CSBoi(Race):
 
     # picture from http://www.cs.cmu.edu/~jhclark/logos.htm
     def drawRace(self, screen, x0, y0):
-        picture = pygame.image.load('cslogo.png').convert_alpha()
+        picture = pygame.image.load('photos/cslogo.png').convert_alpha()
         super().drawRace(screen, x0, y0, picture)
     
     def __repr__(self):
@@ -888,7 +888,7 @@ class TepperBoi(Race):
 
     # picture from https://www.cmu.edu/tepper/
     def drawRace(self, screen, x0, y0):
-        picture = pygame.image.load('tepperlogo.png').convert_alpha()
+        picture = pygame.image.load('photos/tepperlogo.png').convert_alpha()
         super().drawRace(screen, x0, y0, picture)
     
     def __repr__(self):
@@ -901,7 +901,7 @@ class DCBoi(Race):
 
     # picture from http://www.stat.cmu.edu/
     def drawRace(self, screen, x0, y0):
-        picture = pygame.image.load('dietrichlogo.png').convert_alpha()
+        picture = pygame.image.load('photos/dietrichlogo.png').convert_alpha()
         super().drawRace(screen, x0, y0, picture)
 
     def __repr__(self):
@@ -914,7 +914,7 @@ class CFABoi(Race):
 
     # picture from https://www.flickr.com/photos/photo-architect/3511723330
     def drawRace(self, screen, x0, y0):
-        picture = pygame.image.load('cfalogo.jpg').convert_alpha()
+        picture = pygame.image.load('photos/cfalogo.jpg').convert_alpha()
         super().drawRace(screen, x0, y0, picture)
 
     def __repr__(self):
@@ -927,7 +927,7 @@ class MCSBoi(Race):
 
     # picture from https://www.cmu.edu/mcs/news-events/2013/index.html
     def drawRace(self, screen, x0, y0):
-        picture = pygame.image.load('mcslogo.jpg').convert_alpha()
+        picture = pygame.image.load('photos/mcslogo.jpg').convert_alpha()
         super().drawRace(screen, x0, y0, picture)
 
     def __repr__(self):
@@ -940,7 +940,7 @@ class HeinzBoi(Race):
 
     # picture from https://switchboardhub.org/record/cmu-heinz-college/
     def drawRace(self, screen, x0, y0):
-        picture = pygame.image.load('heinzlogo.jpg').convert_alpha()
+        picture = pygame.image.load('photos/heinzlogo.jpg').convert_alpha()
         super().drawRace(screen, x0, y0, picture)
 
     def __repr__(self):
